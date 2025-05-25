@@ -1,5 +1,4 @@
 "use client"
-import Button from './shared/Button';
 import React, { useState, useRef, useEffect } from 'react';
 import { FaChevronLeft, FaChevronRight, FaExternalLinkAlt, FaGithub, FaPalette, FaCode } from "react-icons/fa";
 
@@ -80,7 +79,7 @@ const ProjectsSection: React.FC = () => {
       title: "Data Dashboard",
       type: "Next.js Application",
       description: "Interactive dashboard with charts and analytics",
-      image: "/frame1.png",
+      image: "/Frame1.png",
       tags: ["Next.js", "Charts", "API Integration"],
       demoUrl: "#",
       githubUrl: "#"
@@ -100,7 +99,7 @@ const ProjectsSection: React.FC = () => {
       title: "Property Platform",
       type: "Next.js Application",
       description: "Property listing platform with advanced search and filtering",
-      image: "/frame1.png",
+      image: "/Frame1.png",
       tags: ["Next.js", "Maps", "Search"],
       demoUrl: "#",
       githubUrl: "#"
